@@ -1,6 +1,6 @@
 # Prettier Lines Before Headings
 
-A prettier plugin to add blank lines before Markdown headings for better readability.
+A [Prettier](https://prettier.io/) plugin to add blank lines before Markdown headings for better readability.
 
 
 ## Install

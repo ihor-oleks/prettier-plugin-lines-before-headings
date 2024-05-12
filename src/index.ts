@@ -29,7 +29,7 @@ export const options: SupportOptions = {
 export const printers: {[astFormat: string]: Printer} = {
   "lines-before-headings-ast": {
     print: (path: AstPath): Doc => {
-      if (path.node.type === "lines-before-headings") {
+      if (path.node?.type === "lines-before-headings") {
         return path.node.body;
       }
       throw new Error(`Unknown node type: ${path.node?.type}`);
