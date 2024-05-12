@@ -1,10 +1,13 @@
 {
   "name": "prettier-plugin-lines-before-headings",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A prettier plugin to add blank lines before headings for readability",
   "author": "Ihor Oleksandrov",
   "license": "MIT",
   "main": "./dist/index.js",
+  "files": [
+    "./dist/"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ihor-oleks/prettier-plugin-lines-before-headings.git"
