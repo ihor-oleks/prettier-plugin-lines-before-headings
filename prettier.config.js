@@ -14,5 +14,5 @@ module.exports = {
   importOrderSeparation: true,
   importOrderParserPlugins: ["typescript", "decorators-legacy"],
   linesBeforeHeadings: 2,
-  plugins: [require("@trivago/prettier-plugin-sort-imports"), require("./dist/index.js")]
+  plugins: ["@trivago/prettier-plugin-sort-imports", "./dist/index.js"]
 };
