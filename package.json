@@ -21,7 +21,7 @@
     "clean": "rimraf ./dist/",
     "format": "prettier --cache --write .",
     "lint": "eslint ./src/",
-    "prepare": "pnpm clean && pnpm build"
+    "prepare": "husky && pnpm clean && pnpm build"
   },
   "devDependencies": {
     "@eslint/js": "~9.4.0",
@@ -30,6 +30,7 @@
     "esbuild": "~0.21.0",
     "eslint": "~9.4.0",
     "globals": "~15.3.0",
+    "husky": "~9.0.0",
     "prettier": "~3.3.0",
     "rimraf": "~5.0.0",
     "typescript": "~5.4.0",
