@@ -1,6 +1,6 @@
 {
   "name": "prettier-plugin-lines-before-headings",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A Prettier plugin to add blank lines before headings for readability",
   "author": "Ihor Oleksandrov",
   "license": "MIT",
@@ -13,7 +13,7 @@
     "url": "git+https://github.com/ihor-oleks/prettier-plugin-lines-before-headings.git"
   },
   "engines": {
-    "node": "~20.12.0",
+    "node": "~20.14.0",
     "pnpm": "~9.1.0"
   },
   "scripts": {
