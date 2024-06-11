@@ -10,7 +10,7 @@ import {
 } from "prettier";
 import {parsers as markdownParsers} from "prettier/plugins/markdown";
 
-const HEADINGS = new RegExp(/(#+.*)(?=[^`]*(?:`[^`]*`[^`]*)*$)/g);
+const HEADINGS = new RegExp(/((?<![([].*)#+.*)(?=[^`]*(?:`[^`]*`[^`]*)*$)/g);
 
 const getPlugins = (language: string, options: ParserOptions): Plugin[] => {
   const plugins = options.plugins.filter((plugin) => typeof plugin !== "string") as Plugin[];
