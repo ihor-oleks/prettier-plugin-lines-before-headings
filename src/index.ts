@@ -1,11 +1,11 @@
 import {
   AstPath,
   Doc,
-  Printer,
   format,
   type Parser,
   type ParserOptions,
   type Plugin,
+  Printer,
   type SupportOptions
 } from "prettier";
 import {parsers as markdownParsers} from "prettier/plugins/markdown";
